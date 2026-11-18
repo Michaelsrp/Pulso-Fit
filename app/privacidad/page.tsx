@@ -1,0 +1,20 @@
+import Link from "next/link";
+
+export default function PrivacyPage() {
+  return <main className="legal-page">
+    <Link href="/" className="text-link">← Volver a Pulso Fit</Link>
+    <h1>Política de privacidad de Pulso Fit</h1>
+    <p className="draft-note"><strong>Borrador jurídico.</strong> Documento preliminar orientado a Colombia. Debe ser revisado por un abogado y completado con la identidad, domicilio, correo y datos del responsable del tratamiento antes de ponerse en producción.</p>
+    <p><strong>Última actualización:</strong> 18 de noviembre de 2026.</p>
+    <h2>1. Responsable y marco normativo</h2><p>El responsable del tratamiento deberá identificarse con su nombre o razón social y canales de contacto antes de publicar este documento. El tratamiento se propone de acuerdo con la Ley 1581 de 2012, el Decreto 1074 de 2015 y las demás normas colombianas aplicables.</p>
+    <h2>2. Datos tratados</h2><p>La plataforma puede tratar datos de cuenta (correo electrónico e identificador gestionados por Supabase Auth), nombre de usuario, fotografía de perfil, publicaciones, comentarios, likes y reportes. También puede guardar peso, estatura, fecha de nacimiento, género declarado, objetivo y lugar de entrenamiento. Algunos de estos datos pueden ser considerados datos sensibles o datos relacionados con la salud según su contenido y contexto.</p>
+    <h2>3. Finalidades</h2><ul><li>Crear y administrar la cuenta y autenticar a la persona.</li><li>Personalizar sugerencias generales de entrenamiento y alimentación.</li><li>Mostrar el perfil público limitado a nombre de usuario y avatar, y permitir la interacción en la comunidad.</li><li>Almacenar y mostrar fotografías de forma controlada mediante enlaces temporales.</li><li>Atender reportes, proteger la comunidad y mantener la seguridad del servicio.</li></ul>
+    <h2>4. Tratamiento de datos sensibles</h2><p>El uso de peso, estatura, fecha de nacimiento, género declarado y objetivos debe limitarse a las finalidades descritas. La persona debe conocer el carácter potencialmente sensible de esta información y podrá abstenerse de responder cuando la función lo permita. Pulso Fit no debe usar estos datos para publicidad, decisiones discriminatorias ni diagnósticos clínicos.</p>
+    <h2>5. Almacenamiento y encargados</h2><p>La autenticación, la base de datos y el almacenamiento de fotografías se prestan mediante Supabase, y el alojamiento web puede operar mediante Vercel. Antes de publicar se deben revisar sus condiciones, ubicaciones de procesamiento, acuerdos de tratamiento y mecanismos de transferencia o transmisión internacional aplicables.</p>
+    <h2>6. Derechos de las personas</h2><p>La persona titular puede conocer, actualizar y rectificar sus datos; solicitar prueba de la autorización; conocer el uso dado a sus datos; presentar consultas o reclamos; revocar la autorización y solicitar la supresión cuando proceda; y acudir a la Superintendencia de Industria y Comercio una vez agotado el trámite ante el responsable cuando la ley lo exija.</p>
+    <h2>7. Conservación y eliminación</h2><p>Los datos se conservarán mientras sean necesarios para las finalidades informadas o exista una obligación legal. La aplicación contempla una opción de eliminación de cuenta que solicita borrar perfil, publicaciones, comentarios, likes y fotografías asociadas, sin perjuicio de copias de seguridad o registros que deban conservarse por obligación legal o razones de seguridad justificadas.</p>
+    <h2>8. Seguridad y menores</h2><p>Se aplican controles de acceso, políticas de seguridad a nivel de fila y almacenamiento privado. Ningún sistema garantiza seguridad absoluta. El servicio está dirigido a mayores de 18 años y no busca recolectar datos de menores.</p>
+    <h2>9. Contacto y cambios</h2><p>El responsable debe completar aquí el correo y dirección habilitados para consultas y reclamos. Esta política podrá actualizarse y la versión vigente se publicará en esta página.</p>
+    <p><Link href="/terminos" className="text-link">Leer los Términos de uso</Link></p>
+  </main>;
+}
